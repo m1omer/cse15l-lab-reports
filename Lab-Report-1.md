@@ -37,12 +37,15 @@ __Testing Commands__
 There are a few commands you should ecxplore after succesfully accessing the remote servers.
 
 For example using the command ls- lat will return the following 
+
 This is because ls- lat shows a list of files sorted by date
 
 <img width="667" alt="Screen Shot 2023-01-16 at 8 40 59 PM" src="https://user-images.githubusercontent.com/122564032/212811621-64f5f876-a296-443d-a44c-3833812261ea.png">
 
 
+
 Another command you may want to try is ls -a, it returns the following 
+
 This is because ls -a displays hidden files not listed using the ls command
 
 <img width="628" alt="Screen Shot 2023-01-16 at 8 39 05 PM" src="https://user-images.githubusercontent.com/122564032/212811401-1aa829f1-2ed8-409f-99af-8e00c751e1d6.png">
