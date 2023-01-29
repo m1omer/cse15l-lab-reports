@@ -61,7 +61,8 @@ Another command you can use is mkdir. This allows you to make a directory.
 
 <img width="551" alt="Screen Shot 2023-01-28 at 4 03 56 PM" src="https://user-images.githubusercontent.com/122564032/215296781-32f5a132-787c-4ae8-a3c0-ac1f38b02654.png">
 
-You can then change your current working directory to the directory you created by using the command cd. And then use the command pwd to print your current working directory.
+You can then change your current working directory to the directory you created by using the command cd. 
+And then use the command pwd to print your current working directory.
 
 <img width="390" alt="Screen Shot 2023-01-28 at 4 06 58 PM" src="https://user-images.githubusercontent.com/122564032/215296853-d21a7cb6-f867-4090-a947-9d341235dd13.png">
 
