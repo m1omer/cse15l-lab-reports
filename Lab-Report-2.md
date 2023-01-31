@@ -41,6 +41,22 @@ public class ArrayTests {
 	}
 }
 ```
+<img width="987" alt="Screen Shot 2023-01-30 at 11 51 20 PM" src="https://user-images.githubusercontent.com/122564032/215699051-d31aafbc-0dc8-4807-822d-cace5bef8374.png">
+
+
+An input which doesn't induce failure 
+
+```java
+{
+public class ArrayTests {
+	@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {21};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{21}, input1);
+	}
+}
+```
 
 
 __Part 3__
