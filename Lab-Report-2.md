@@ -44,20 +44,31 @@ public class ArrayTests {
 <img width="987" alt="Screen Shot 2023-01-30 at 11 51 20 PM" src="https://user-images.githubusercontent.com/122564032/215699051-d31aafbc-0dc8-4807-822d-cace5bef8374.png">
 
 
-An input which doesn't induce failure 
+Code before the change 
 
 ```java
-{
-public class ArrayTests {
-	@Test 
-	public void testReverseInPlace() {
-    int[] input1 = {21};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{21}, input1);
-	}
-}
+
+  static void reverseInPlace(int[] arr) {
+    int[] arr1 = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+      arr1[i] = arr[arr.length - i - 1];
+    }
+  }
 ```
 
+code after the change
+
+```java
+  static void reverseInPlace(int[] arr) {
+    int[] arr1 = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr1[i] = arr[arr.length - i - 1];
+    }
+    arr = arr1;
+  }
+
+This code now works as it prevents the elements at the start from being reassigned by storing all the elements from the input array in a new arrray arr1. Then the reference for arr is assigned to arr1 which contains the elements in the reverse order. In the previous iteration of the code, the array entered by the user was being rewritten, hence the bug. 
 
 __Part 3__
 One thing I learned from week 2 and 3 was how to set up my own local server and run commands on it. Previously I had only known about accessing existing servers remotely. 
