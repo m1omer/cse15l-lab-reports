@@ -72,5 +72,6 @@ Code after the change
 This code now works as it prevents the elements at the start from being reassigned by storing all the elements from the input array in a new arrray arr1. Then the reference for arr is assigned to arr1 which contains the elements in the reverse order. In the previous iteration of the code, the array entered by the user was being rewritten, hence the bug. 
 
 __Part 3__
+
 One thing I learned from week 2 and 3 was how to set up my own local server and run commands on it. Previously I had only known about accessing existing servers remotely. 
 
