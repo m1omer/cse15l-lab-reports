@@ -57,7 +57,7 @@ Code before the change
   }
 ```
 
-code after the change
+Code after the change
 
 ```java
   static void reverseInPlace(int[] arr) {
@@ -67,6 +67,7 @@ code after the change
     }
     arr = arr1;
   }
+``` 
 
 This code now works as it prevents the elements at the start from being reassigned by storing all the elements from the input array in a new arrray arr1. Then the reference for arr is assigned to arr1 which contains the elements in the reverse order. In the previous iteration of the code, the array entered by the user was being rewritten, hence the bug. 
 
