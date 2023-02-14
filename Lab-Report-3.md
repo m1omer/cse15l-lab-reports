@@ -30,13 +30,13 @@ Using the command '-v' which is inverted match, in conjunction with grep tells t
 
 Example 1:
 ```
-grep -i "jeans" ./ch9.txt*
+grep -v "jeans" ./ch9.txt*
 ```
 <img width="1512" alt="Screen Shot 2023-02-13 at 10 51 21 PM" src="https://user-images.githubusercontent.com/122564032/218660942-6e90d891-0501-448c-9262-62d2b9ca0601.png">
 
 Example 2:
 ```
-grep -i "jeans" ./ch9.txt*
+grep -v "a" ./ch9.txt*
 ```
 <img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218661453-295f6fd0-f378-4658-8dc5-7e6d802ac8a5.png">
 
