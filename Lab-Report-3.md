@@ -12,12 +12,20 @@ Example 1:
 For this example I used the skill demo 1 files on my account of the ieng6 server. 
 
 ```
-grep -r "apple" ./non-fiction/OUP/Kauffman/ch9.txt
+grep -i "equation" ./ch9.txt*
 ```
-The output:
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218647593-6bce934f-49c7-4ce9-808f-dbaebd4870a2.png">
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218660187-28085185-8df3-490e-98d1-6caf3c4838aa.png">
 
 
+Example 2:
 
+```
+grep -i "EQUATION" ./ch9.txt*
+```
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218660396-a8a5945b-a2c4-43cc-a617-69c619ecb49f.png">
 
+__Context 2__
+
+Using the command '-v' which is inverted match, in conjunction with grep tells the command to print out lines which do not match the search pattern. 
+![Screen Shot 2023-02-13 at 10 49 37 PM 2](https://user-images.githubusercontent.com/122564032/218660630-4cd19de0-eca8-4e60-b19b-4bea27af7ba1.png)
 
