@@ -27,5 +27,5 @@ grep -i "EQUATION" ./ch9.txt*
 __Context 2__
 
 Using the command '-v' which is inverted match, in conjunction with grep tells the command to print out lines which do not match the search pattern. 
-![Screen Shot 2023-02-13 at 10 49 37 PM 2](https://user-images.githubusercontent.com/122564032/218660630-4cd19de0-eca8-4e60-b19b-4bea27af7ba1.png)
+<img width="1512" alt="Screen Shot 2023-02-13 at 10 51 21 PM" src="https://user-images.githubusercontent.com/122564032/218660942-6e90d891-0501-448c-9262-62d2b9ca0601.png">
 
