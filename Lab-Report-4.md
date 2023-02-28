@@ -8,6 +8,8 @@ Using the ssh command I can access my account on the ieng6 server. I used my sea
 
 Keys used: ```<up><enter>```
 
+
+
 __Git Clone__
 
 I used git clone to clone my fork of the lab7 repository on to the ieng6 server. I copy-pasted the github link to save time
@@ -26,6 +28,26 @@ To run the junit tests, I first used cd to change the directory to lab7. Then I 
 ![image](https://user-images.githubusercontent.com/122564032/221724982-3ed551b2-f4e1-427d-987f-f26882cbfa35.png)
 
 Keys used: ```<ctrl+c><enter><ctrl+c><enter>```
+
+
+__Edit the Code__
+
+I used the command nano to open and edit the ListExamples.java file. I then fixed the error in the last while loop of the code by switching index2+=1  to index1+=1 instead which should prevent the program from failing the tests. I used the key press ```<ctrl+x>``` to exit the file and then press ```<y>``` to confirm the chnanges. 
+
+![image](https://user-images.githubusercontent.com/122564032/221725613-3a51f567-cd2b-4ead-a2ae-692b1bfe9e90.png)
+![image](https://user-images.githubusercontent.com/122564032/221726102-7b7f77ce-ca2a-4664-9bf4-7d273d9bfeca.png)
+
+Keys used: ```<enter><ctrl+x><y>```
+
+
+__Rerun Tests__
+
+I used same commands to rerun the tests as before. However, instead of copy pasting them this time I used the terminal history by pressing the up key repeatedly until I landed on the appropriate command.
+
+![image](https://user-images.githubusercontent.com/122564032/221726627-db77e17c-2bec-4df9-8275-f60c99b2668b.png)
+
+Keys used: ```<up><up><up><up><up><enter>
+              <up><up><up><up><enter>```
 
 __Commit and Push Changes__
 
