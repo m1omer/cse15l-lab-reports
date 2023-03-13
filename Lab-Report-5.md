@@ -1,11 +1,17 @@
 
-# Lab Report 3
+# Lab Report 5 (Favorite Tasks)
+
+My favorite Lab report was researching the different commands in lab report 3 and deepening my understanding of those commands by exploring different applications. This lab played an integral role in helping develop my command line skills and served as the foundation of command line knowledge for the next few lab reports.
+
+
+# Recreating the tasks
 
 __Researching the grep command__
 
 __Context 1__
 
-Using '-i' which is ignore case, in conjunction with grep tells the command to ignore the case sensitivity of the pattern. 
+(Ignore Case)
+Using '-i', in conjunction with grep tells the command to ignore the case sensitivity of the pattern. 
 This is useful in situations when you are unawarre of the case sensitivity.
 
 Example 1:
@@ -26,7 +32,8 @@ grep -i "EQUATION" ./ch9.txt*
 
 __Context 2__
 
-Using the command '-v' which is inverted match, in conjunction with grep tells the command to print out lines which do not match the search pattern. 
+(Inverted Match)
+Using the command '-v', in conjunction with grep tells the command to print out lines which do not match the search pattern. 
 
 Example 1:
 ```
@@ -43,8 +50,8 @@ grep -v "a" ./ch9.txt*
 
 __Context 3__
 
-
-Using the command '-c' which is count, in conjunction with grep tells the command to count the number of matches rather printing the matching lines.
+(Count)
+Using the command '-c', in conjunction with grep tells the command to count the number of matches rather printing the matching lines.
 
 
 Example 1:
@@ -63,7 +70,8 @@ grep -c "z" ./*
 
 __Context 4__
 
-Using the command '-r'  which is recursive, in conjunction with grep tells the command to search for a pattern recursively in all file and directories in the given path.
+(Recursive)
+Using the command '-r', in conjunction with grep tells the command to search for a pattern recursively in all file and directories in the given path.
 
 Example 1:
 ```
