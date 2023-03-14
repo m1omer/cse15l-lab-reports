@@ -4,7 +4,7 @@
 My favorite Lab report was researching the different commands in lab report 3 and deepening my understanding of those commands by exploring different applications. This lab played an integral role in helping develop my command line skills and served as the foundation of command line knowledge for the next few lab reports.
 
 
-# Recreating the tasks
+# Exploring different commands 
 
 __Researching the grep command__
 
