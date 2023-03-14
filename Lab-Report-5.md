@@ -10,81 +10,87 @@ __Researching the grep command__
 
 __Context 1__
 
-(Ignore Case)
-Using '-i', in conjunction with grep tells the command to ignore the case sensitivity of the pattern. 
-This is useful in situations when you are unawarre of the case sensitivity.
+You can use 'ls' in conjunction with grep. The command 'ls' is used to list the contents of a directory. 
+
+
 
 Example 1:
-For this example I used the skill demo 1 files on my account of the ieng6 server. 
 
+In this case it returns the files which name's contain the phrase 'result'.
 ```
-grep -i "equation" ./ch9.txt*
+ls | grep result
 ```
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218660187-28085185-8df3-490e-98d1-6caf3c4838aa.png">
+
+<img width="493" alt="image" src="https://user-images.githubusercontent.com/122564032/224855836-973faaf6-71e5-45b6-8b44-0b54f4eac85b.png">
+
+
 
 
 Example 2:
 
+In this case I used ls in conjunction with grep to return all the files with a txt extension in the current working directory.
 ```
-grep -i "EQUATION" ./ch9.txt*
+ls| grep txt
 ```
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218660396-a8a5945b-a2c4-43cc-a617-69c619ecb49f.png">
+
+<img width="585" alt="image" src="https://user-images.githubusercontent.com/122564032/224856614-91c96cfd-53b0-4525-8cb1-17179af1c83b.png">
+
+
+
 
 __Context 2__
 
-(Inverted Match)
-Using the command '-v', in conjunction with grep tells the command to print out lines which do not match the search pattern. 
+Using the command 'cat', in conjunction with grep tells the command to search for a specific string within a file and display the results.
+
 
 Example 1:
 ```
-grep -v "jeans" ./ch9.txt*
+cat fresults.txt | grep Nepal
 ```
-<img width="1512" alt="Screen Shot 2023-02-13 at 10 51 21 PM" src="https://user-images.githubusercontent.com/122564032/218660942-6e90d891-0501-448c-9262-62d2b9ca0601.png">
+
+<img width="573" alt="image" src="https://user-images.githubusercontent.com/122564032/224857675-36f1e3a8-26dc-4305-b28b-db726b9a8b87.png">
+
 
 Example 2:
 ```
-grep -v "a" ./ch9.txt*
+cat gresults.txt | grep Hawaii
 ```
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218661453-295f6fd0-f378-4658-8dc5-7e6d802ac8a5.png">
-
+<img width="561" alt="image" src="https://user-images.githubusercontent.com/122564032/224857975-e69bc32d-44ac-4a61-9d0f-38766fc18bf2.png">
 
 __Context 3__
 
-(Count)
-Using the command '-c', in conjunction with grep tells the command to count the number of matches rather printing the matching lines.
+(find)
+Using the command find, in conjunction with grep tells the command to search for files or directories that match a specific pattern.
 
 
 Example 1:
 ```
-grep -c "a" ./ch8.txt*
+find . -type f | grep Vallarta
 ```
-<img width="449" alt="image" src="https://user-images.githubusercontent.com/122564032/218662224-ba6237cf-ca07-467d-81d9-3d06e585f82f.png">
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/122564032/224858601-d7882403-6b4c-4b3b-ac75-062aad2bfe14.png">
 
 Example 2:
 ```
-grep -c "z" ./*
+find . -type f | grep Portugal
 ```
 
-<img width="488" alt="image" src="https://user-images.githubusercontent.com/122564032/218662513-84c8af44-b616-457f-949c-7156f541f48c.png">
-
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/122564032/224858932-17385e72-19be-46c8-a818-da0ed204e8ea.png">
 
 __Context 4__
 
-(Recursive)
-Using the command '-r', in conjunction with grep tells the command to search for a pattern recursively in all file and directories in the given path.
+Using the command sort, in conjunction with grep tells the command to search for a specific pattern and then sort the matching lines. In this instance it will sort them in alphabetical order. 
 
 Example 1:
 ```
-grep -r "Yantai" ./written_2/*
+grep Cuba fresults.txt | sort
 ```
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218664007-d25ab869-029a-4257-ae25-aa0ce78ff897.png">
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/122564032/224859576-2265983a-ca81-4484-89fd-5ab6101fe3c6.png">
 
 Example 2:
 ```
-grep -r "1,700" ./written_2/*
+grep Crete gresults.txt | sort
 ```
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/122564032/218664278-8432a67a-864d-4dd6-8efe-abcb3439a930.png">
-
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/122564032/224859800-dd7f4726-822f-4d16-ab5c-64eb2f0ada70.png">
 
 
 
